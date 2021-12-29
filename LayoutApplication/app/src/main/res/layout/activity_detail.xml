@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="680dp" />
+
+    <TextView
+        android:id="@+id/SocialMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_title"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <ImageView
+        android:id="@+id/fb"
+        android:layout_width="47dp"
+        android:layout_height="44dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fb88932f1b3ae67ff1112f3061dd111a"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <ImageView
+        android:id="@+id/ig"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/b3262d54b5790e98ee58b17c6f7a00ba"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_fb"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_ig"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_pic"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <ImageView
+        android:id="@+id/pic1"
+        android:layout_width="322dp"
+        android:layout_height="123dp"
+        android:src="@drawable/DSC_4970"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <ImageView
+        android:id="@+id/pic2"
+        android:layout_width="323dp"
+        android:layout_height="122dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/DSC_4967"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <TextView
+        android:id="@+id/school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_school"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <TextView
+        android:id="@+id/hs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_school1"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_s1"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_s2"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <TextView
+        android:id="@+id/tl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_school2"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <TextView
+        android:id="@+id/s3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_s3"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <TextView
+        android:id="@+id/s4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_s4"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <TextView
+        android:id="@+id/s5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_s5"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_address"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="623dp" />
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/detail_add"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="623dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

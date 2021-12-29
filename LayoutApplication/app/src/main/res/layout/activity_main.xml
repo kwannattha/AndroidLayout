@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/studentID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/atma_semibold"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        tools:text="@string/profile_ID" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="95dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="24dp"
+        android:background="#0000BCD4"
+        android:fontFamily="@font/atma_semibold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile"
+        tools:text="@string/profile_name" />
+
+    <ImageView
+        android:id="@+id/cover"
+        android:layout_width="470dp"
+        android:layout_height="325dp"
+        android:scaleType="centerCrop"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:srcCompat="@drawable/cffd814655d9b443145d92c8eaf41632" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="212dp"
+        android:layout_height="172dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/cover"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/cover"
+        app:layout_constraintTop_toBottomOf="@+id/cover"
+        app:layout_constraintVertical_bias="0.645"
+        app:srcCompat="@drawable/DSC_5043" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/buttonDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="286dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:fontFamily="@font/atma_semibold"
+        android:inputType="textEmailAddress"
+        android:text="@string/profile_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/studentID" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/atma_semibold"
+        android:text="@string/profile_consultant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

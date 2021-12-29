@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Android Layout</string>
+    <string name="profile_name">Nattha Sonsri</string>
+    <string name="profile_ID">StudentID : 623410032-1</string>
+    <string name="profile_email">Email : nattha.sonsri@kkumail.com</string>
+    <string name="profile_consultant">Consultant : Tawun Remsungnen</string>
+    <string name="detail_title">Social Media</string>
+    <string name="detail_fb">Nattha Sonsri</string>
+    <string name="detail_ig">24Kwanthx</string>
+    <string name="detail_pic">Picture More</string>
+    <string name="detail_school">Educational Record</string>
+    <string name="detail_school1">High School</string>
+    <string name="detail_s1">Thatumprasermwit School</string>
+    <string name="detail_s2">Surin</string>
+    <string name="detail_school2">Tertiary Level</string>
+    <string name="detail_s3">Computer and Information Science</string>
+    <string name="detail_s4">Faculty Interdisciplinary Studies</string>
+    <string name="detail_s5">Khon Kaen University</string>
+    <string name="detail_add">Address</string>
+    <string name="detail_address">91 M.4 Thatum,Thatum,Surin 32120</string>
+
+</resources>
